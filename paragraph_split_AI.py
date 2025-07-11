@@ -38,8 +38,8 @@ def find_paragraphs_AI(text, client, file_path):
     return paragraphs
 
 
-doc = fitz.open("Identifying Causes of and Solutions for Cybersickness in Immersive Technology Reformulation of a Research and Development Agenda.pdf")
-
+doc = fitz.open("PDF 1.pdf")
+#delete the old output file 
 all_paras = []
 fname = "paragraphs2.txt"
 for page in doc:
